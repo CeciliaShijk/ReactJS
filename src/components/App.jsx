@@ -10,7 +10,7 @@ export default class App extends Component {
         todos: [
             { id: '001', content: 'sleep', done: false },
             { id: '002', content: 'playing', done: true },
-            { id: '003', content: 'eating', done: false }
+            { id: '004', content: 'eating', done: false }
         ]
     }
     //子组件向父组件传参：在父组件中写方法-子组件调用后将子组件的参数传给父组件
