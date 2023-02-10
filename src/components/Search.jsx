@@ -13,6 +13,7 @@ class Search extends Component {
         addTodo(obj)
         
         event.target.value=''
+        console.log('commit');
         
     }
     render() {
